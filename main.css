@@ -1,11 +1,8 @@
-header {
+.header {
   display: flex;
-  
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
-
-
-div {
-     border: 1px solid; }
 
 .container {
     display: grid;
@@ -16,6 +13,8 @@ div {
   
     height: 100vh;
   }
+
+
 
 
 
