@@ -1,13 +1,20 @@
-/* Code for visualizing boxes */
-div { border: 1px solid; }
+div {
+     border: 1px solid; }
 
-
-/* Main Body CSS */
 .container {
     display: grid;
-    grid-template-columns: 10em auto 10em;
-    grid-template-areas: 
-        "header header header"
-        "nav  main aside"
-        "footer footer footer";
-}
+  
+    /* grid-template-areas:
+      "nav content aside"
+      "footer footer footer"; */
+  
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 10px;
+  
+    height: 100vh;
+  }
+
+
+
+  
