@@ -10,7 +10,7 @@
     grid-template-areas: "header header header"
                          "nav content aside"
                          "footer footer footer";
-    grid-template-columns: 175px 1fr 175px;
+    grid-template-columns: 200px 1fr 200px;
     grid-template-rows: 100px 
               1fr
               30px;
@@ -38,12 +38,17 @@
 
   }
 
-  .container__header h2, h3{
+  .container__header h2{
+    color: white;
+  }
+
+  .container__header h3 {
     color: white;
   }
 
   .container__footer {
     display: flex;
+    justify-content: space-evenly;
   }
 
 
