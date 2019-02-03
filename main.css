@@ -42,7 +42,9 @@
     color: white;
   }
 
-  
+  .container__footer {
+    display: flex;
+  }
 
 
 
