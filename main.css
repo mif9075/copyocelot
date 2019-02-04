@@ -1,9 +1,10 @@
 
+  /* Holy Grail Layout using CSS Grid */
   .container__header {grid-area: header}
   .container__nav { grid-area: nav; }
-  .container__footer { grid-area: footer; }
   .container__content { grid-area: content; }
   .container__aside { grid-area: aside; }
+  .container__footer { grid-area: footer; }
   
   .container {
     display: grid;
@@ -11,31 +12,34 @@
                          "nav content aside"
                          "footer footer footer";
     grid-template-columns: 200px 1fr 200px;
-    grid-template-rows: 100px 
-              1fr
-              30px;
+    grid-template-rows: 50px 
+                        1fr
+                        30px;
     min-height: 100vh;
   }
   
+  /* Responsive@Holy Grail Layout */
   @media screen and (max-width: 600px) {
     .hg {
-      grid-template-areas: "nav"
+      grid-template-areas: "header"
+                           "nav"
                            "content"
                            "aside"
                            "footer";
       grid-template-columns: 100%;
-      grid-template-rows: 100px 
-                50px 
-                1fr
-                50px 
-                30px;
+      grid-template-rows: 100px
+                          50px 
+                          1fr
+                          50px 
+                          30px;
     }
   }
+
+/* Header Codes */
   .container__header {
     display: flex;
     justify-content: space-evenly;
     background-color: black;
-
   }
 
   .container__header h2{
@@ -46,6 +50,7 @@
     color: white;
   }
 
+/* Footer Codes */
   .container__footer {
     display: flex;
     justify-content: space-evenly;
