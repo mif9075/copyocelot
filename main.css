@@ -42,7 +42,7 @@
     background-color: black;
   }
 
-  .container__header h2{
+  .container__header h2 {
     color: white;
   }
 
@@ -50,14 +50,24 @@
     color: white;
   }
 
-/* Footer Codes */
+/* Footer Codes */ 
   .container__footer {
     display: flex;
     justify-content: space-evenly;
+    background-color: black;
   }
 
+/* Images sizes */
+  .container__nav img {
+    width: 90%;
+  }
 
+.container__content img {
+    width: 95%;
+}
 
-
+.container__aside img {
+  width: 30%;
+}
 
   
