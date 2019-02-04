@@ -14,7 +14,7 @@
     grid-template-columns: 200px 1fr 200px;
     grid-template-rows: 50px 
                         1fr
-                        50px;
+                        175px;
     min-height: 100vh;
   }
   
@@ -52,11 +52,12 @@
 
 /* Footer Codes */ 
   .container__footer {
-    display: flex;
-    justify-content: space-evenly;
+    display: inline-flex;
+    justify-content: space-between;
     background-color: black;
+    color: white;
   }
-
+  
 /* Images sizes */
   .container__nav img {
     width: 90%;
